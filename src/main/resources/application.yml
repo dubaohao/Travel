@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    username: dubaohao
+    password: 19950324
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/travel?characterEncoding=utf-8&serverTimezone=UTC
+#  thymeleaf:
+#    prefix: classpath:/templates/
+#    suffix: html
+#    encoding: UTF-8
+wechat:
+  mpAppId: wx7efefd49fa2e93e9
+  mpAppSecret: 2e964d001230824774e9f63087237799
+  mchId: 1518660281
+  mchKey: H0ArDLpcsrSySdUkwNNrqfU22g7EHmUk
+  keyPath: F:/Code/WWW2/Travel/src/main/resources/static/cert/apiclient_cert.p12
+  notifyUrl: http://dubaohao.natapp1.cc/pay/notify
+projectUrl:
+  wechatMpAuthorize: http://dubaohao.natapp1.cc
+#  sell: http://sell.natapp4.cc
+
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: UTF-8
